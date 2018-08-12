@@ -1,7 +1,8 @@
-package com.example.bandhan.onlinestore
+package com.example.bandhan.onlinestore.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.bandhan.onlinestore.R
 
 class MainActivity : AppCompatActivity() {
 
