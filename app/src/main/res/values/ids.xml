@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="categoryText" type="id" />
+    <item name="categoryImage" type="id" />
+</resources>
