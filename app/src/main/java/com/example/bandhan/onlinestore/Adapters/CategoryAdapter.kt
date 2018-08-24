@@ -11,10 +11,8 @@ import android.widget.TextView
 import com.example.bandhan.onlinestore.Model.Category
 import com.example.bandhan.onlinestore.R
 
-class CategoryAdapter(context : Context , categories : List<Category>) : BaseAdapter(){
+class CategoryAdapter(val context: Context, val categories: List<Category>) : BaseAdapter(){
 
-    val context = context
-    val categories = categories
     override fun getItem(positon: Int): Any {
         return categories[positon]
     }
