@@ -23,11 +23,11 @@ class ProductsActivity : AppCompatActivity() {
         var spanCount = 2
         val orientation = resources.configuration.orientation
         if(orientation == Configuration.ORIENTATION_LANDSCAPE){
-            spanCount=3
+            spanCount = 3
         }
         val screensize = resources.configuration.screenWidthDp
         if(screensize > 720){
-            spanCount=3
+            spanCount = 3
         }
 
         val layoutManager = GridLayoutManager(this, spanCount)
